@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=fileName
+comment0.target=Greyscale(java.lang.String)
+comment1.params=
+comment1.target=java.awt.image.BufferedImage\ convertToGreyscale()
+numComments=2
