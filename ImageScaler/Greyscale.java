@@ -12,7 +12,7 @@ import java.io.ByteArrayOutputStream;
  * Write a description of class Main here.
  * 
  * @author Kenny Scharm
- * @version 1/31/2013
+ * @version January 31, 2014
  */
 public class Greyscale
 {
