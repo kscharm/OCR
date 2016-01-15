@@ -5,7 +5,7 @@ import javax.imageio.*;
 import java.awt.image.*;
 import java.util.*;
 /**
- * Write a description of class Main here.
+ * Optical Character Recognition main class.
  * 
  * @author Kenny Scharm
  * @version 9/2/14
