@@ -36,7 +36,6 @@ public class ImageScalar
             xp = -1;
             yp = -1;
         }
-        //catch (IOException e) {System.out.print(e);}
         catch (InputMismatchException  i) {System.out.println("Invalid input"); }
     }
 
