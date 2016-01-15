@@ -11,8 +11,8 @@ import java.io.ByteArrayOutputStream;
 /**
  * Write a description of class Main here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Kenny Scharm
+ * @version 1/31/2013
  */
 public class Greyscale
 {
@@ -55,7 +55,6 @@ public class Greyscale
                 int b = Integer.valueOf(hexColor.substring(5,7),16);
 
                 int x = (int)(0.299*(r) + 0.587*(g) + 0.114*(b));
-                //int x = (r+g+b)/3;
                 if (x> max)
                 {
                     max = x;
@@ -63,9 +62,7 @@ public class Greyscale
                 String hex = String.format("#%02x%02x%02x", x, x, x);
 
                 int val = Integer.valueOf(hex.substring(1, hex.length()), 16);
-                //System.out.println("0x"+hex.substring(1, hex.length()));
                 editImg.setRGB(i, j, val);
-                //System.out.println("Red: "+ r + " Green: "+ g + " Blue"+ b);
             }
         }
         
