@@ -4,7 +4,7 @@ import java.util.*;
 * This BinarySearchTree object defines a reference based binary search tree
 * 
 * @author Kenny Scharm
-* @version January 31, 2014
+* @version 9/30/14
 */
 @SuppressWarnings("unchecked")
 public class BinarySearchTree<T extends Comparable<T>> implements BSTInterface<T>
